@@ -1,0 +1,71 @@
+html,
+body {
+    width: 100%;
+    margin: 0;
+    font-family: 'Merriweather', serif;
+}
+
+.container {
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    height: 100vh;
+    border: 1px dotted #222F3E;
+    color: #373541;
+
+}
+
+.container h1 {
+    background-color: #a1a9c0;
+    color: #373541;
+    margin-top: 0.5em;
+    margin-bottom: 1em;
+    line-height: 2.5;
+    font-size: 3em;
+
+}
+
+#textInput {
+    width: 500px;
+    height: 50px;
+    font-size: 2em;
+    vertical-align: middle;
+    margin-left: 3%;
+    margin-right: 1%;
+    font-family: 'Merriweather', serif;
+    margin: auto;
+}
+
+#addButton {
+    width: 60px;
+    height: 50px;
+    vertical-align: middle;
+    font-size: 1.7em;
+}
+
+.to-do-list {
+    margin: 0 auto;
+    width: 90%;
+}
+
+.paragraph-style {
+    line-height: 1.7;
+    width: 500px;
+    height: 50px;
+    margin: 0 auto;
+    cursor: pointer;
+    font-size: 2em;
+    border-bottom: 1.5px solid #8FA3B9;
+    vertical-align: middle;
+    text-align: left;
+    padding-left: 1em;
+    margin-top: 1%;
+    font-family: 'Merriweather', serif;
+}
+
+.removeButton {
+    width: 40px;
+    height: 30px;
+    font-size: 1.5em;
+    vertical-align: bottom;
+}
